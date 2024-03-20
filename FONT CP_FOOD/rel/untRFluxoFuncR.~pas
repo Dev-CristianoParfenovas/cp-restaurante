@@ -1,0 +1,24 @@
+unit untRFluxoFuncR;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TfrmRFluxoFuncR = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmRFluxoFuncR: TfrmRFluxoFuncR;
+
+implementation
+
+{$R *.dfm}
+
+end.

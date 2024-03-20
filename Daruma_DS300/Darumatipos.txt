@@ -1,0 +1,114 @@
+procedure TFramework_Impressora_Dual.ExemploDual_07Click(Sender: TObject);
+begin
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<tc>#</tc>'),0);
+//IPRIMINDO A PRIMEIRA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<e><ce>ACADEMIA NEW SPORTS</ce></e>'),0);
+//IPRIMINDO A SEGUNDA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<tb><i>Rua Nossa Senhora da Luz</i>, 350'),0);
+//IPRIMINDO A TERCEIRA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<tb><i>Jardim Social   -   Curitiba   -  PR</i>'),0);
+//IPRIMINDO A QUARTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<tb>CNPJ 04.888.968/0001-79<tb><e>234-5678<l></l></e>'),0);
+//IPRIMINDO A QUINTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<tc>#</tc><l></l>'),0);
+//IPRIMINDO A SEXTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<i><dt></dt><i>'),0);
+//IPRIMINDO A SÉTIMA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<ad>Recibo nr.258963</ad><l></l>'),0);
+//IPRIMINDO A OITAVA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<c>Nome : </c><b>ELAINE MARIA</b><sp>5</sp>(545)<l></l> '),0);
+//IPRIMINDO A NONA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<c>Plano : </c><b>MUSCULAÇÃO NOTURNO</b><sp>5</sp>(5)<l></l>'),0);
+//IPRIMINDO A DECIMA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<ce><e>VALOR PAGO : 45,00</e></ce>'),0);
+//IPRIMINDO A DECIMA PRIMEIRA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<c>Ref. ao período de 03/04/2005 até 03/05/2005</c><l></l>'),0);
+//IPRIMINDO A DECIMA SEGUNDA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<c>Obs: MENSALIDADE</c><l></l>'),0);
+//IPRIMINDO A DECIMA TERCEIRA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<tc>_</tc><l></l>'),0);
+//IPRIMINDO A DECIMA QUARTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<ce><e>WWW.ACADEMIANEW.COM.BR</e></ce>'),0);
+//IPRIMINDO A DECIMA QUINTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<tc>_</tc><l></l>'),0);
+//IPRIMINDO A DECIMA SEXTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<ce><e>SAUDE BELEZA E BEM ESTAR</e></ce>'),0);
+//IPRIMINDO A DECIMA SÉTIMA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<sl>7</sl>'),0);
+//IPRIMINDO A DECIMA OITAVA LINHA
+if Int_Retorno = 1 Then
+begin
+Application.MessageBox('Impressao Concluida!!!', 'Daruma Framework', mb_ok + 32);
+end
+else
+begin
+Application.MessageBox('Erro!', 'Daruma Framework', mb_ok + 16);
+end;
+
+end;
+*****************************************************************************
+*****************************************************************************
+
+procedure TFramework_Impressora_Dual.ExemploDual_08Click(Sender: TObject);
+begin
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('________________________________________________'),0);
+//IPRIMINDO A PRIMEIRA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<sp>5</sp><e><s>CASA ASHFAQ AHMED</s></e><sp>6</sp>|'),0);
+//IPRIMINDO A SEGUNDA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<c>Nota de : </c> <e>VENDAS</e><sp>24</sp>|'),0);
+//IPRIMINDO A TERCEIRA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<c>Número  : </c> <e>032165</e><sp>24</sp>|'),0);
+//IPRIMINDO A QUARTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<c>Vendedor: </c> <e>ZORAIDE</e><sp>22</sp>|'),0);
+//IPRIMINDO A QUINTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('------------------------------------------------'),0);
+//IPRIMINDO A SEXTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<sp>2</sp><b>CÓDIGO<sp>4</sp>|<sp>2</sp>DESCRIÇÃO<sp>8</sp>|  VALOR</b>     |'),0);
+//IPRIMINDO A SÉTIMA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('------------------------------------------------'),0);
+//IPRIMINDO A OITAVA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<sp>2</sp><b>00074185<sp>2</sp>|<sp>2</sp>DVD PANA-LS345<sp>3</sp>|<sp>2</sp>499,00</b><sp>4</sp>|'),0);
+//IPRIMINDO A NONA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('------------------------------------------------'),0);
+//IPRIMINDO A DECIMA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<sp>2</sp><b>000963256<sp>1</sp>|<sp>2</sp>CALCUL<sp>3</sp>HP49GX<sp>2</sp>|<sp>2</sp>859,00</b><sp>4</sp>|'),0);
+//IPRIMINDO A DECIMA PRIMEIRA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('------------------------------------------------'),0);
+//IPRIMINDO A DECIMA SEGUNDA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<sp>2</sp><b>00258852<sp>2</sp>|<sp>2</sp>TV TOSHI0<sp>2</sp>48P<sp>3</sp>|4,480,00</b><sp>4</sp>|'),0);
+//IPRIMINDO A DECIMA TERCEIRA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('------------------------------------------------'),0);
+//IPRIMINDO A DECIMA QUARTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<sp>2</sp><b>000789654<sp>1</sp>|<sp>2</sp>SONY T68i<sp>8</sp>|<sp>2</sp>659,00</b><sp>4</sp>|'),0);
+//IPRIMINDO A DECIMA QUINTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('------------------------------------------------'),0);
+//IPRIMINDO A DECIMA SEXTA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<sp>45</sp>|'),0);
+//IPRIMINDO A DECIMA SÉTIMA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<e><sp>3</sp>TOTAL<sp>3</sp>5,727,00</e><sp>7</sp>|'),0);
+//IPRIMINDO A DECIMA OITAVA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<sp>45</sp>|'),0);
+//IPRIMINDO A DECIMA NONA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('------------------------------------------------'),0);
+//IPRIMINDO A VIGÉSIMA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<sp>18</sp>CONFIRA SUAS MERCADORIAS<sp>3</sp>|'),0);
+//IPRIMINDO A VIGÉSIMA PRIMEIRA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('|<sp>5</sp>NÃO ACEITAMOS RECLAMAÇÕES POSTERIORES<sp>3</sp>|'),0);
+//IPRIMINDO A VIGÉSIMA SEGUNDA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('------------------------------------------------'),0);
+//IPRIMINDO A VIGÉSIMA TERCEIRA LINHA
+Int_Retorno:= Daruma_DUAL_ImprimirTexto(pchar('<sl>7</sl>'),0);
+//IPRIMINDO A VIGÉSIMA QUARTA LINHA
+if Int_Retorno = 1 Then
+begin
+Application.MessageBox('Impressao Concluida!!!', 'Daruma Framework', mb_ok + 32);
+end
+else
+begin
+Application.MessageBox('Erro!', 'Daruma Framework', mb_ok + 16);
+end;
+end;
+
+
+
+

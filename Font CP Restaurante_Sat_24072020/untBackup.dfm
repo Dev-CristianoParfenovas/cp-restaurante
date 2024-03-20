@@ -1,0 +1,151 @@
+object frmBackup: TfrmBackup
+  Left = 171
+  Top = 166
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Backup CP Sistemas'
+  ClientHeight = 220
+  ClientWidth = 399
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbl_Origem: TLabel
+    Left = 4
+    Top = 40
+    Width = 42
+    Height = 13
+    Caption = 'Origem'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl_Destino: TLabel
+    Left = 4
+    Top = 104
+    Width = 43
+    Height = 13
+    Caption = 'Destino'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl_DataBKP: TLabel
+    Left = 306
+    Top = 40
+    Width = 72
+    Height = 13
+    Caption = 'Data do BKP'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+  end
+  object topbTitulo: TBmsXPTopBar
+    Left = 0
+    Top = 0
+    Width = 399
+    Height = 30
+    Align = alTop
+    Caption = 'BKP'
+    TabOrder = 4
+    GradientColors.StartColor = 14798784
+    GradientColors.EndColor = 14632751
+  end
+  object lbl_edtOrigem: TmxFlatEdit
+    Left = 4
+    Top = 56
+    Width = 297
+    Height = 21
+    Activate = False
+    BorderColor = clGradientInactiveCaption
+    Flat = True
+    ShowBorder = True
+    Version = '1.26'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object lbl_edtDestino: TmxFlatEdit
+    Left = 4
+    Top = 120
+    Width = 297
+    Height = 21
+    Activate = False
+    BorderColor = clGradientInactiveCaption
+    Flat = True
+    ShowBorder = True
+    Version = '1.26'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clNavy
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object ibeaSair: TBmsXPButton
+    Left = 317
+    Top = 4
+    Width = 80
+    Height = 21
+    Caption = '&Sair'
+    Layout = tlTop
+    WordWrap = False
+    ShowAccelChar = True
+    TabOrder = 2
+    OnClick = ibeaSairClick
+  end
+  object ibeaExecutar: TBmsXPButton
+    Left = 304
+    Top = 120
+    Width = 80
+    Height = 21
+    Caption = '&Executar BKP'
+    Layout = tlTop
+    WordWrap = False
+    ShowAccelChar = True
+    TabOrder = 3
+    OnClick = ibeaExecutarClick
+  end
+  object dtpDataBkp: TmxFlatDateTimePicker
+    Left = 304
+    Top = 56
+    Width = 88
+    Height = 21
+    CalAlignment = dtaLeft
+    Date = 39515.443186956
+    Time = 39515.443186956
+    DateFormat = dfShort
+    DateMode = dmComboBox
+    Kind = dtkDate
+    ParseInput = False
+    TabOrder = 5
+    Activate = False
+    BorderColor = clGradientInactiveCaption
+    Flat = True
+    ShowBorder = True
+    Version = '1.26'
+  end
+end

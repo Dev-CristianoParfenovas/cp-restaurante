@@ -1,0 +1,45 @@
+unit Daruma_Framework_FISCAL_iCNFAbrirPadrao_ECF_Daruma;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TFR_FISCAL_iCNFAbrirPadrao_ECF_Daruma = class(TForm)
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Edt_CPF: TEdit;
+    Edt_Nome: TEdit;
+    Edt_Endereco: TEdit;
+    BT_ENVIAR: TButton;
+    BT_FECHAR: TButton;
+    procedure BT_ENVIARClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FR_FISCAL_iCNFAbrirPadrao_ECF_Daruma: TFR_FISCAL_iCNFAbrirPadrao_ECF_Daruma;
+
+implementation
+uses Daruma_Framework_FISCAL_Principal;
+
+{$R *.dfm}
+
+procedure TFR_FISCAL_iCNFAbrirPadrao_ECF_Daruma.BT_ENVIARClick(
+  Sender: TObject);
+Var Str_CPF, Str_Nome, Str_Endereco:string;
+begin
+   Str_CPF := Edt_CPF.Text;
+   Str_Nome := Edt_Nome.Text;
+   Str_Endereco := Edt_Endereco.Text;
+   Int_Retorno:= iCNFAbrirPadrao_ECF_Daruma( Str_CPF, Str_Nome, Str_Endereco);
+   FR_MenuImpressoraFiscal_Principal.DarumaFramework_Mostrar_Retorno();
+end;
+
+end.

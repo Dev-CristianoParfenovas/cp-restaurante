@@ -1,0 +1,4 @@
+01|<dest></dest>
+02|001|<prod><cProd>001</cProd><xProd>TEMAKI SALMAO COMPLETO</xProd><NCM>01012100</NCM><CFOP>5405</CFOP><uCom>UN</uCom><qCom>1.0000</qCom><vUnCom>13.00</vUnCom><indRegra> </indRegra></prod><imposto><ICMS><ICMS00><Orig>0</Orig><CST>00</CST><pICMS>1.25</pICMS></ICMS00></ICMS><PIS><PISAliq><CST>01</CST><vBC>13.00</vBC><pPIS>0.0125</pPIS></PISAliq></PIS><COFINS><COFINSAliq><CST>01</CST><vBC>13.00</vBC><pCOFINS>0.0125</pCOFINS></COFINSAliq></COFINS></imposto>
+03|<total><vCFeLei12741>0.00</vCFeLei12741></total>
+04|001|<MP><cMP>01</cMP><vMP>13.00</vMP></MP>

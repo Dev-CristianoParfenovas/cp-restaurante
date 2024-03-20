@@ -1,0 +1,21 @@
+unit Classe.Vendas;
+
+interface
+
+  type
+
+   TDadosCliente = class
+
+     private
+     FNome: string;
+
+
+     public
+
+     property NomeCli : string read FNome write FNome;
+
+   end;
+
+implementation
+
+end.

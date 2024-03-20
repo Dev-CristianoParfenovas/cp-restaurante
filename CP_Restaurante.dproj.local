@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/03/04 17:02:48.000.091,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\class_json\Pkg.Json.DTO.pas</Transaction>
+    <Transaction>2024/03/04 17:02:48.000.122,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\class_json\RootUnit.pas</Transaction>
+    <Transaction>2024/03/04 17:03:29.000.623,C:\CP Sistemmas\CP Lanchonete_Pizzaria\rel\untRelCodBarrasAD.pas=</Transaction>
+    <Transaction>2024/03/04 17:05:34.000.533,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\rel\untRelCodBarrasAD.pas</Transaction>
+    <Transaction>2024/03/04 17:07:53.000.448,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\rel\untRFluxoVendasCaixa.pas</Transaction>
+    <Transaction>2024/03/04 18:43:39.000.445,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\rel\untR_Orc.pas</Transaction>
+    <Transaction>2024/03/04 18:44:24.000.749,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\rel\untRPedOrcObs.pas</Transaction>
+    <Transaction>2024/03/04 18:44:51.000.235,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\rel\untRelatVendaCupom.pas</Transaction>
+    <Transaction>2024/03/04 18:45:13.000.454,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\rel\untRelFluxoTroca.pas</Transaction>
+    <Transaction>2024/03/04 18:45:37.000.157,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\rel\untRelVendasFornecedor.pas</Transaction>
+    <Transaction>2024/03/04 18:46:14.000.158,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\rel\untRelRecibo.pas</Transaction>
+    <Transaction>2024/03/04 18:48:49.000.444,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\untPimaco6089Variada.pas</Transaction>
+    <Transaction>2024/03/05 12:00:13.000.211,C:\CP Sistemmas\CP Lanchonete_Pizzaria\untPimaco6089.pas=</Transaction>
+    <Transaction>2024/03/05 12:00:37.000.758,C:\CP Sistemmas\CP Lanchonete_Pizzaria\untPimaco6089Variada.pas=</Transaction>
+    <Transaction>2024/03/06 13:32:47.106,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\Unit2.pas</Transaction>
+    <Transaction>2024/03/06 14:07:28.028,C:\CP Sistemmas\CP Lanchonete_Pizzaria\untRest.pas=C:\CP Sistemmas\CP Lanchonete_Pizzaria\Unit2.pas</Transaction>
+    <Transaction>2024/03/06 14:07:28.028,C:\CP Sistemmas\CP Lanchonete_Pizzaria\untRest.dfm=C:\CP Sistemmas\CP Lanchonete_Pizzaria\Unit2.dfm</Transaction>
+    <Transaction>2024/03/06 15:20:48.430,=C:\CP Sistemmas\CP Lanchonete_Pizzaria\Unit2.pas</Transaction>
+    <Transaction>2024/03/06 15:27:56.230,C:\CP Sistemmas\CP Lanchonete_Pizzaria\utils\untArredondaComponents.pas=C:\CP Sistemmas\CP Lanchonete_Pizzaria\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
